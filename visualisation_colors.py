@@ -1,0 +1,8 @@
+class Colors:
+    EMPTY_COLOR = (192, 192, 192)
+    START_COLOR = (173, 255, 47)
+    END_COLOR = (255, 69, 0)
+    VISITED_COLOR = (102, 205, 170)
+    PROCESSING_COLOR = (0, 255, 255)
+    WALL_COLOR = (128, 128, 128)
+    PATH_COLOR = (178, 34, 34)
