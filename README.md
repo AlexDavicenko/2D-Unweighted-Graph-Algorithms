@@ -5,9 +5,9 @@ Currently implemented algorithms
 - BFS 
 - A*
 
-![][ttps://github.com/AlexDavicenko/2D-Unweighted-Graph-Algorithms/blob/main/repo/A-Star-1.gif)]
+![](https://github.com/AlexDavicenko/2D-Unweighted-Graph-Algorithms/blob/main/repo/A-Star-1.gif)
 
-![][ttps://github.com/AlexDavicenko/2D-Unweighted-Graph-Algorithms/blob/main/repo/A-Star-2.gif)]
+![](https://github.com/AlexDavicenko/2D-Unweighted-Graph-Algorithms/blob/main/repo/A-Star-2.gif)
 
 Planned
 - Multiagent path finding 
