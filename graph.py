@@ -128,9 +128,10 @@ def a_star(p1, p2, grid):
 
                 manhattan_dist = manhattan_distance(nx, ny, x2, y2)
                 queue.put(
-                    (manhattan_dist+distance, nx, ny, distance)
+                    (manhattan_dist+distance, nx, ny, distance+1)
                 )
 
+            print(distances[ny][nx], distance)
             if distances[ny][nx] > distance:
                 prev[(nx, ny)] = (x, y)
                 distances[ny][nx] = distance
