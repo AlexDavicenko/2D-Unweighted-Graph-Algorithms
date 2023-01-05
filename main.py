@@ -8,9 +8,6 @@ from graph import Node, bfs, a_star
 class Visualisation(Colors):
     fps = 144
 
-    keys = None
-
-
     def __init__(self) -> None:
 
         pygame.init()
@@ -40,8 +37,6 @@ class Visualisation(Colors):
         return [[Node(j, i, self.EMPTY_COLOR) for i in range(self.width)] for j in range(self.height)]
 
     def eventloop(self):
-        self.keys = pygame.key.get_pressed()
-
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
